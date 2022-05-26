@@ -70,9 +70,9 @@ composer require fleetbase/omniship-common fleetbase/omniship-fedex php-http/buz
 All shipping service providers must implement [ServiceProviderInterface](https://github.com/fleetbase/omniship-common/blob/master/src/Common/ServiceProviderInterface.php), and will usually extend [AbstractServiceProvider](https://github.com/fleetbase/omniship-common/blob/master/src/Common/AbstractServiceProvider.php) for basic functionality.
 
 The following gateways are available:
-| Service Provider Package | Composer Package         | Maintainer                                |
-| ------------------------ | ------------------------ | ----------------------------------------- |
-| FedEx                    | fleetbase/omniship-fedex | [Fleetbase](https://github.com/fleetbase) |
+| Service Provider Package       | Composer Package           | Maintainer                                |
+| ------------------------------ | -------------------------- | ----------------------------------------- |
+| FedEx                          | `fleetbase/omniship-fedex` | [Fleetbase](https://github.com/fleetbase) |
 
 Service providers are created and initialized like so:
 
